@@ -1,15 +1,14 @@
 # JobFinder
 
-Il vous faudra dans un premier lieu installer les 2 librairies python nécessaires (numpy et pandas, peuvent être installer sans passer par le requirements si les versions poses problème):
-<br>
-pip install -r requirements.txt
-<br><br>
+Install command : bash install.sh pour installer le venv anaconda
+
+Activation du venv : conda activate jobfinderenv
 
 Pour exécuter l'application : <br>
-launch.sh le_numero_de_votre_departement
+bash launch.sh le_numero_de_votre_departement
 <br><br>
 Exemple :<br> 
-launch.sh 75 -> La recommandation de JobFinder pour le département 75
+bash launch.sh 75 -> La recommandation de JobFinder pour le département 75
 <br><br>
 Vous pouvez également passer directement par le script python :<br>
 python JobFinder.py le_numero_de_votre_departement
