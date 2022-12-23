@@ -1,8 +1,9 @@
 # JobFinder
 
 Il vous faudra dans un premier lieu installer les 2 librairies python nécessaires (numpy et pandas):
-pip install -r requirements.txt
-
+'''
+$ pip install -r requirements.txt
+'''
 Pour exécuter l'application : 
 launch.sh le_numero_de_votre_departement
 
