@@ -1,6 +1,6 @@
 # JobFinder
 
-Install command : bash install.sh pour installer le venv anaconda
+Installation d'anaconda, du venv et des packages : bash install.sh pour installer le venv anaconda
 
 Activation du venv : conda activate jobfinderenv
 
