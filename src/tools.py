@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def calcul_recommandation(data: np.ndarray, x: int, msg: dict):
+def calcul_recommandation(data, x, msg):
     borne_inf = np.quantile(data, 0.25)
     borne_mid = np.quantile(data, 0.5)
     borne_top = np.quantile(data, 0.75)
@@ -16,7 +16,7 @@ def calcul_recommandation(data: np.ndarray, x: int, msg: dict):
         return msg[3], 3
 
 
-def calcul_conclusion(score: int) -> str:
+def calcul_conclusion(score):
     if score <= 2:
         return "Un conseil mon vieux, fuyez de là."
     elif score <= 4:
