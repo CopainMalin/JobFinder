@@ -1,6 +1,6 @@
 # JobFinder
 
-Il vous faudra dans un premier lieu installer les 2 librairies python nécessaires (numpy et pandas):
+Il vous faudra dans un premier lieu installer les 2 librairies python nécessaires (numpy et pandas, peuvent être installer sans passer par le requirements si les versions poses problème):
 <br>
 pip install -r requirements.txt
 <br><br>
