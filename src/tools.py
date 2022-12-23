@@ -18,10 +18,8 @@ def calcul_recommandation(data, x, msg):
 
 def calcul_conclusion(score):
     if score <= 2:
-        return "Un conseil mon vieux, fuyez de là."
+        return "Un conseil mon vieux, fuyez de la."
     elif score <= 4:
-        return "C'est une région correcte, vous pouvez trouver votre bonheur."
+        return "C'est un departement correct, vous pouvez trouver votre bonheur."
     else:
-        return (
-            "Votre région est très fertile à l'emploi, vous avez bien choisi mon brave."
-        )
+        return "Votre departement est tres fertile à l'emploi, vous avez bien choisi mon brave."
